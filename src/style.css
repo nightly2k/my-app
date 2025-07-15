@@ -1,0 +1,80 @@
+body {
+  margin: 10px;
+}
+
+.profile-list {
+  display: flex;
+  gap: 10px;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.profile {
+  display: block;
+  width: 500px;
+  padding: 0 30px;
+  margin: 20px 0;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+.tic-tac-toe {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 1px;
+  padding-left: 1px;
+  background-color: red;
+}
+
+.tic-tac-toe .square {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: -1px;
+  margin-left: -1px;
+  border-radius: 0;
+  border-width: 1px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.gallery-list {
+  width: 400px;
+}
+
+.gallery-list>div {
+  margin-top: 20px;
+}
+
+.gallery-list div[class*='-group']>* {
+  margin: 0;
+}
+
+.gallery-list .desc-group button+p {
+  margin-top: 8px;
+}
+
+.artworkDetail {
+  .form {
+    display: flex;
+    gap: 10px;
+    flex-flow: column;
+
+    label {
+      display: flex;
+    }
+
+    span {
+      flex: 0 0 auto;
+      width: 80px;
+    }
+  }
+}

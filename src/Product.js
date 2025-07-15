@@ -1,3 +1,3 @@
-export function getImageUrl(item, size = "s") {
-  return process.env.PUBLIC_URL + item.imageId + ".jpg";
+export function getImageUrl(person, size = "s") {
+  return "https://i.imgur.com/" + person.imageId + size + ".jpg";
 }

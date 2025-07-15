@@ -16,3 +16,7 @@
 .itemList .card {
   flex: 0 1 auto;
 }
+
+img {
+  object-fit: cover;
+}
